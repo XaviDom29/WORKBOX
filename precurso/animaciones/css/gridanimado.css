@@ -1,0 +1,51 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box; 
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+#wrapper{
+	position: relative;
+	width: 400px;
+	margin:0 auto;
+}
+
+.col{
+	width: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor:pointer;
+}
+
+#btn1, #btn3{
+	top: 0;
+}
+
+#btn2, #btn4{
+	top: 200px;
+}
+
+#btn3, #btn4{
+	left: 200px;
+}
+
+.col:hover{
+	width: 100%;
+	z-index: 100;
+	transition: 1s; 
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover{
+	top:0px;
+	left: 0px;
+}
+
+
+
+

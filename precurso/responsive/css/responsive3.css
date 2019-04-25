@@ -1,0 +1,20 @@
+h1{
+	color: tomato;
+}
+
+p{
+	font-size: 16px;
+}
+
+@media(min-width: 500px) and (max-width: 800px) {
+
+	h1{
+		color: steelblue;
+	}
+
+	p{
+		padding: 10px;
+		background-color: pink;
+	}
+	
+}

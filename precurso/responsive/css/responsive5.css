@@ -1,0 +1,10 @@
+#wrapper{
+	max-width: 500px;
+	margin: 0 auto;
+	background: red;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}

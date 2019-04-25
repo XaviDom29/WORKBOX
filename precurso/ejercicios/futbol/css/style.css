@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #444;
+}
+
+#wrapper{
+	width: 800px;
+}
+
+#barza{
+	width: 45%;
+	background-color: rgb(24,59,24);
+	border: 2px solid white;
+	position: relative;
+	display: inline-block;
+
+}
+
+#valencia{
+	position: relative;
+	width: 45%;
+	background-color: rgb(24,59,24);
+	border: 2px solid white;
+	display: inline-block;
+}
+
+.mitadcampo{
+	border: 2px solid white;
+	height: 300px;
+}
+
+#mitad1 .areapeq{
+	width: 50%;
+	height: 50px;
+	border-left:4px solid white;
+	border-right:4px solid white;
+	border-bottom: 4px solid white;
+	margin: 0 auto;
+}
+
+#mitad1 .areagrande{
+	position: relative;
+	width: 75%;
+	height: 150px;
+	border-left:4px solid white;
+	border-right:4px solid white;
+	border-bottom: 4px solid white;
+	margin: 0 auto;
+	background-color: rgb(24,59,24);
+}
+
+#mitad1 .semiarea{
+	width: 37%;
+	height: 148px;
+	border: 4px solid white;
+	margin: 0px auto;
+	border-radius: 74px;
+	margin-top: -100px;
+}
+
+.semicentro{
+	position: absolute;
+	width: 37%;
+	height: 148px;
+	border: 4px solid white;
+	border-radius: 74px;
+	left: 31.5%;
+	top: 226px;
+
+}
+
+#mitad2 .areapeq{
+	position:absolute;
+	width: 50%;
+	height: 50px;
+	border-left:4px solid white;
+	border-right:4px solid white;
+	border-top: 4px solid white;
+	bottom: 0px;
+	left: 25%;
+	
+}
+
+#mitad2 .areagrande{
+	position: absolute;
+	width: 75%;
+	height: 150px;
+	border-left:4px solid white;
+	border-right:4px solid white;
+	border-top: 4px solid white;
+	background-color: rgb(24,59,24);
+	bottom: 2px;
+	left: 12.5%;
+}
+
+#mitad2 .semiarea{
+	position: absolute;
+	width: 37%;
+	height: 148px;
+	border: 4px solid white;
+	border-radius: 74px;
+	margin-top: -100px;
+	bottom: 48px;
+	left:31.5%;
+}
+
+.jugador{
+	font-family: arial;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	text-align: center;	
+}
+
+#messi{
+	top:100px;
+	right: 50px;
+
+}
+
+#neymar{
+	top:100px;
+	left:50px;
+}
+
+#luis{
+	top:100px;
+	left:170px;
+}
+
+#alba{
+	bottom: 80px;
+	left:50px;
+}
+
+#umtiti{
+	bottom: 80px;
+	left:170px;
+}
+
+#pique{
+	bottom: 80px;
+	right: 50px;
+}
+
+#iniesta{
+	left: 30px;
+	top: 250px;
+}
+
+#busquets{
+	top: 250px;
+	left: 100px;
+}
+
+#rakitic{
+	top: 250px;
+	right: 130px;
+}
+
+#rafinha{
+	top: 250px;
+	right: 30px;
+}
+
+#ter{
+	bottom: 5px;
+	left:155px;
+}
+
+
+
+
+
+

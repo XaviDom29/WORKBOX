@@ -1,0 +1,32 @@
+body{
+	font-size: 100%;
+	font-family: Arial, sans-serif; /* que la fuente tiene que estar en mi sistema */
+}
+
+h1{
+	font-size: 300%;
+	font-weight: lighter;
+	font-family: Times, serif; 
+	text-shadow: 4px 10px 3px #444;
+}
+
+
+h2{
+	font-size: 50px;
+	color: blue;
+	font-style: italic;
+	font-weight: 900;
+}
+
+p{
+	text-align: left; /* left, center, right, justify*/
+	text-decoration: none; /*overline, line-through, underline, none*/
+	text-transform: uppercase; /*lowercase, capitalize */
+	line-height: 22px; /* espacio entre lineas */
+	font-kerning: normal; /* ajuste optico inherit, normal */
+	letter-spacing: 3px;  /* espacio entre letras */
+}
+
+a{
+	text-decoration:none;
+}

@@ -1,0 +1,19 @@
+img{
+	width: 100%;
+	height: auto;
+}
+
+#logo1{
+	display: none;
+}
+
+@media(min-width: 500px){
+
+	#logo1{
+		display: block;
+	}
+
+	#logo2{
+		display: none;
+	}
+}

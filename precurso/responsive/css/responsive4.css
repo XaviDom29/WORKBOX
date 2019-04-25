@@ -1,0 +1,38 @@
+h1{
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+}
+
+
+@media(orientation: portrait){
+
+	body{
+		background-color: tomato;
+	}
+
+	#landscape{
+		display: none;
+	}
+
+}
+
+@media(orientation: landscape ){
+	
+	body{
+		background-color: green;
+	}
+
+	#portrait{
+		display: none;
+	}
+}
+
+@media(min-width: 900px), (orientation: portrait ){
+
+	h1{
+		color: white
+	}
+}
+
+

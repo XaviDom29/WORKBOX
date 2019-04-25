@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Grand National</title>
+
+	<style>
+		#hipodromo{
+			width: 600px;
+			border-right: 2px; 
+			border-right-style: dotted;
+			border-right-color: black;
+
+		}
+
+		.caballo{
+			width: 100px;
+			height: 50px;
+			background-color: black;
+			color: white;
+			padding: 10px;
+			margin: 10px;
+			position: relative;
+			animation-name: carrera;
+			animation-duration: 7s;
+		}
+
+		.caballo1{animation-timing-function: linear;}
+		.caballo2{animation-timing-function: ease;}
+		.caballo3{animation-timing-function: ease-in;}
+		.caballo4{animation-timing-function: ease-out;}
+		.caballo5{animation-timing-function: ease-in-out;}
+		.caballo6{animation-timing-function: cubic-bezier(0.17,0.67,0.14,1.01);}
+
+		@keyframes carrera{
+			from{left: 0px;}
+			to{left: 700px; }
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+<div id="hipodromo">
+	<div class="caballo caballo1">linear</div>
+	<div class="caballo caballo2">ease</div>
+	<div class="caballo caballo3">ease-in</div>
+	<div class="caballo caballo4">ease-out</div>
+	<div class="caballo caballo5">ease-in-out</div>
+	<div class="caballo caballo6">personaliza</div>
+</div>
+
+</body>
+</html>

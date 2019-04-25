@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Sombras de elementos</title>
+
+	<style>
+
+	body{
+		background: url(http://api.thumbr.it/whitenoise-361x370.png?);
+	}
+		
+			.boton a{
+				display: block;
+				position: absolute;
+				top: 200px;
+				left: 200px;
+				width: 200px;
+				color: white;
+				text-decoration: none;
+				text-align: center;
+				padding: 10px;
+
+				/* diferentes tipos de bordes redodeados */
+
+				border-radius: 0px 56px 13px 63px;
+				-moz-border-radius: 0px 56px 13px 63px;
+				-webkit-border-radius: 0px 56px 13px 63px;
+				-o-border-radius: 0px 56px 13px 63px;
+				-ms-border-radius: 0px 56px 13px 63px;
+				border: 7px ridge #d627d6;
+
+
+				/* sombras de objeto */
+				
+				box-shadow: 7px 9px 30px -6px rgba(140,140,140,1);
+				-webkit-box-shadow: 7px 9px 30px -6px rgba(140,140,140,1);
+				-ms-box-shadow: 7px 9px 30px -6px rgba(140,140,140,1);
+				-o-box-shadow: 7px 9px 30px -6px rgba(140,140,140,1);
+				-moz-box-shadow: 7px 9px 30px -6px rgba(140,140,140,1);
+
+				/* gradiente */
+
+				background: rgba(76,76,76,1);
+				background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+				background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(25%, rgba(102,102,102,1)), color-stop(39%, rgba(71,71,71,1)), color-stop(50%, rgba(44,44,44,1)), color-stop(51%, rgba(0,0,0,1)), color-stop(60%, rgba(17,17,17,1)), color-stop(76%, rgba(43,43,43,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
+				background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+				background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+				background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+				background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
+				
+
+
+			}
+
+	.sombra{
+	text-shadow:5px 4px 0px #c92bc9;
+		-moz-text-shadow:5px 4px 0px #c92bc9;
+		-webkit-text-shadow:5px 4px 0px #c92bc9;
+		-o-text-shadow:5px 4px 0px #c92bc9;
+		-ms-text-shadow:5px 4px 0px #c92bc9;
+
+	}
+
+
+
+
+	</style>
+</head>
+<body>
+	
+	<div class="boton">
+		<a href="#">CLIK ME!!!</a>
+	</div>
+
+
+	<p class="sombra">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid facilis id rerum qui consequuntur nihil quia, quam corrupti rem minima quibusdam cumque harum dolorem enim provident, laboriosam aspernatur ipsa iure.</p>
+
+
+</body>
+</html>

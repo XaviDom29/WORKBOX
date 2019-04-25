@@ -1,0 +1,168 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+/* INICIO CSS */
+
+*{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+
+body{
+	background-color: #aaa;
+	font-size: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+#wrapper{
+	width: 960px;
+	background-color: white;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+header .logo{
+	font-size: 200%;
+	float:left;
+}
+
+header .logo a{
+	color: black;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+header .logo a span{
+	color:green;
+}
+
+header nav{
+	float:right;
+}
+
+nav ul li{
+	display:inline-block;
+} 
+
+nav ul li a{
+	display: block;
+	padding: 10px;
+	color: black;
+}
+
+
+nav ul li a:hover{
+	background-color: black;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+header:after{
+	clear: both;
+	display: block;
+	content: "";
+	height: 0;
+}
+
+
+#hero{
+	height: 200px;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 10px;
+	box-shadow: 0px 0px 3px #222;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 40px;
+	padding: 10px;
+
+}
+
+main{
+	padding: 20px 0px;
+}
+
+main h1{
+	display: none;
+	/*visibility: hidden;*/
+	/*opacity: 0.7;*/
+}
+
+main section{
+	width: 66%;
+	float: left;
+}
+
+main #sidebar{
+	width: 33%;
+	float: left;
+	padding-left: 20px;
+}
+
+main #sidebar .banner{
+	width: 100%;
+	height: 200px;
+	background-color: rgba(0,0,0,0.2);
+	margin-bottom: 10px;
+}
+
+main:after{
+	display: block;
+	clear: both;
+	height: 0;
+	content: "";
+}
+
+main section article .imagen{
+	width: 150px;
+	height: 150px;
+	background-color: #444;
+	border: 2px solid #eee;
+	float: left;
+}
+
+main section article .textoArticulo{
+	float: right;
+	width: 430px;
+}
+
+main section article{
+	padding: 20px 20px 20px 0;
+	border-bottom: 1px solid black;
+}
+
+main section article:first-child{
+	padding-top: 0px;
+}
+
+main section article:last-child{
+	border-bottom: 0px;
+}	
+
+main section article .textoArticulo h2{
+	font-size: 150%;
+	font-weight: 700;
+}
+
+main section article .textoArticulo p{
+	margin-top: 10px;
+}
+
+.row:after{
+	display: block;
+	clear: both;
+	height: 0;
+	content: "";
+}
+
+
+
+
+
+

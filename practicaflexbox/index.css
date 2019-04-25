@@ -1,0 +1,15 @@
+#container{
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.section{
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+  text-align: center;
+}

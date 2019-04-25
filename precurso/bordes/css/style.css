@@ -1,0 +1,64 @@
+#wrapper{
+	width: 500px;
+	/* margin: 0 auto; /* sirve para centrar cualquier elemento que tenga ancho */
+	left: 35%;
+	position: absolute;
+	bottom: 0px;
+}
+
+#wrapper div{
+	background-color: #393c16;
+	margin: 0 auto;
+}
+
+#cuerpo{
+	width: 200px;
+	height: 350px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#cuerpo div{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin-top: 7px;
+}
+
+
+#cuerpo #rojo{
+	background-color: red;	
+}
+
+#cuerpo #amarillo{
+	background-color: yellow;
+}
+
+#cuerpo #verde{
+	background-color: green;
+}
+
+
+#semicirculo{
+	width: 100px;
+	height: 50px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+}
+
+#rectangulo{
+	width: 150px;
+	height: 15px;
+}
+
+#palo{
+	width: 50px;
+	height: 400px;
+}
+
+#pie{
+	width: 200px;
+	height: 50px;
+}
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Trabajo con EM</title>
+
+	<style>
+		
+		body{
+			font-size: 1em;
+
+			/* si el usuario define 16px como el tamaño de su navegador 1em -> 16px
+
+			pero si el usuario define 20px como el tamaño de su navegador 1em -> 20px; */
+		}
+
+		.contenido{
+			font-size: 1.5em;
+		}
+
+		.parrafito{
+			font-size: 0.8em; 
+			/* si parrafito esta dentro de contenido su tamaño sería:
+
+					24px *0.8 = 19px;
+
+				pero si parrifito esta fuera
+
+					16px * 0.8 = 13px;
+
+			rem es lo mismo que em pero solo depende del tamaño del body */
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+	<div id="wrapper">
+		
+		<div class="contenido">
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, qui maxime consequuntur necessitatibus labore possimus eligendi, nihil deserunt assumenda saepe quia quo sapiente laborum numquam laboriosam natus repellendus molestias reiciendis!</p>
+
+			<p class="parrafito">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, maiores placeat asperiores voluptate non blanditiis explicabo dolore iste autem, repudiandae commodi eos ex ullam laboriosam excepturi sint soluta. Necessitatibus, impedit!</p>
+
+		</div>
+
+		<div class="parrafito">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia accusamus nesciunt ab fugiat officia quam natus labore, cumque deleniti, earum, reiciendis et quisquam possimus temporibus voluptatum odit aperiam dignissimos totam?</div>
+
+	</div>
+	
+</body>
+</html>

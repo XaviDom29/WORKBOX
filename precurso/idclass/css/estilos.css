@@ -1,0 +1,37 @@
+p{
+	color:blue;
+}
+
+#rosa{
+	color: pink;
+}
+
+.impar{
+	color:red;
+}
+
+.rosa{
+	color: pink;
+	line-height: 45px;
+	font-size: 20px; 
+}
+
+
+.par{
+	color: yellow;
+	font-size: 30px;
+}
+
+.juntos{
+	color:yellow;
+	font-size: 30px;
+	line-height: 45px;
+}
+
+
+p{
+	color: green;
+}
+
+
+

@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#cajas{
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	flex-flow: row;
+}
+
+.caja{
+	padding: 10px;
+	margin: 30px;
+	background-color: tomato;
+}
+
+#uno{
+	flex: 1;
+	order: 2;
+}
+
+#dos{
+	flex: 2;
+		order: 3;
+}
+
+#tres{
+	flex: 1;
+	order: 1;
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flappy bird</title>
+
+	<style>
+		
+		body{
+			background-color: lightblue
+		}
+
+		.bird{
+			position: absolute;
+			top:10%;
+			left: 5%;
+
+			animation-name: subirBajar, moverse, rotacion;
+			animation-delay: 0s,0s,4s;
+			animation-duration:4s, 4s, 8s;
+			animation-iteration-count: infinite;
+			animation-fill-mode: none, none, both;
+			animation-direction: alternate;
+
+		}
+
+		@keyframes subirBajar{
+			0%{ top:10%;}
+			25%{ top: 80%;}
+			50%{ top: 43%;}
+			75%{ top: 20%; }
+			100%{ top:70%;}
+		}
+
+
+		@keyframes moverse{
+			0%{ left:5%;}
+			25%{ left: 35%;}
+			50%{ left: 60%;}
+			75%{ left: 80%; }
+			100%{ left:90%;}
+		}
+
+		@keyframes rotacion{
+			from{transform: rotateY(0deg);}
+			to{transform: rotateY(180deg);}
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="bird">
+		<img src="images/bird.gif" alt="">
+	</div>
+	
+</body>
+</html>

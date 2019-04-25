@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Imagen en escala de grises</title>
+
+	<style>
+		
+		.contenedor{
+			width: 400px;
+			height: 400px;
+			border: 3px solid black;
+			cursor: pointer;
+		}
+
+		.contenedor img{
+			/* filter:grayscale(100%);
+			-o-filter:grayscale(100%);
+			-ms-filter:grayscale(100%);
+			-moz-filter:grayscale(100%);
+			-webkit-filter:grayscale(100%);*/
+
+			filter:blur(3px);
+			-o-filter:blur(3px);
+			-ms-filter:blur(3px);
+			-moz-filter:blur(3px);
+			-webkit-filter:blur(3px);
+
+			transition: 2s;
+		}
+
+		.contenedor img:hover{
+			
+			/*filter:grayscale(0%);
+			-o-filter:grayscale(0%);
+			-ms-filter:grayscale(0%);
+			-moz-filter:grayscale(0%);
+			-webkit-filter:grayscale(0%);*/
+
+			filter:blur(0px);
+			-o-filter:blur(0px);
+			-ms-filter:blur(0px);
+			-moz-filter:blur(0px);
+			-webkit-filter:blur(0px);
+
+			transition: 2s;
+		}	
+
+
+	</style>
+</head>
+<body>
+
+	<div class="contenedor">
+		<img src="images/perro.jpg">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur eum nam, ipsum accusamus reprehenderit, similique, pariatur cum dolor consectetur animi laborum ad sequi, rerum beatae doloribus minus asperiores vel atque?</p>
+	</div>
+	
+</body>
+</html>

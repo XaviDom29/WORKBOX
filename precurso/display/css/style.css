@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 0;
+}
+
+body{
+	background-color: grey;
+}
+
+
+#tablero{
+	width: 800px;
+	margin: 50px; auto;
+
+}
+
+#tablero div{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+.negro{
+	background-color: black;
+}
+
+.blanco{
+	background-color: white;
+}

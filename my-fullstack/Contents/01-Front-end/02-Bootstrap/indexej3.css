@@ -1,0 +1,26 @@
+body {
+  background-color: #EBEDEF;
+}
+
+.hola{
+  max-width: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.table-striped {
+  background-color: white;
+}
+
+.hola2 {
+  padding-top: 50px;
+}
+h1{
+display: inline-block;
+}
+h2{
+  display: inline inline-block;
+}
+.hola3{
+  padding-top: 50px;
+}

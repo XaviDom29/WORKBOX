@@ -1,0 +1,53 @@
+
+
+$main-color: #333333;
+$main-font: Helvetica;
+$main-text-size: 12px;
+$ismobile: false;
+$margin-sizes: 10px, 5px, 6px, 10px;
+
+@import "header.scss";
+
+body {
+  background-color: $main-color;
+  div{
+    border-color: $main-color;
+    span {
+      color: $main-color;
+    }
+  }
+}
+
+@if $ismobile == true {
+  body {
+    width: 100%;
+  }
+}
+
+@else {
+  body{
+    width: 50%;
+  }
+}
+
+
+span{
+  font-family: $main-font;
+  font-weight: bold;
+
+}
+@mixin hola($size, $font) {
+  font-family: $font;
+  font-size: $size;
+}
+
+p{
+  @include hola(12px, Helvetica)
+}
+
+
+
+p{
+  @extend span;
+  font-size: 16px;
+}

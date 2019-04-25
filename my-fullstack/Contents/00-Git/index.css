@@ -1,0 +1,8 @@
+@keyframes animacion2 {
+    from {color: #E74C3C}
+    to{ color: #2ECC71}
+}
+#animacion {
+  animation-name: animacion2;
+  animation-duration: 3s;
+}

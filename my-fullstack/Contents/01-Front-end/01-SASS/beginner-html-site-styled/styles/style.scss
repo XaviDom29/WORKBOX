@@ -1,0 +1,43 @@
+$color1: #00539F;
+$color2:#FF9500;
+$ismobile: false;
+
+@import "text_styles.scss";
+
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: $color1;
+
+  body {
+    width: 100px;
+    margin: 0 auto;
+    background-color: $color2;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+    h1 {
+      font-size: 60px;
+      text-align: center;
+      margin: 0;
+      padding: 20px 0;
+      color: $color1;
+      text-shadow: 3px 3px 1px black;
+    img {
+      display: block;
+      margin: 0 auto;
+        }
+      }
+    }
+  }
+
+@if $ismobile == true {
+  body {
+    width: 100%;
+  }
+}
+
+@else {
+  body{
+    width: 50%;
+  }
+}

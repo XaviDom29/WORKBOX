@@ -1,0 +1,75 @@
+
+body{
+	background: #000000;
+}
+
+header {
+	background: rgba(0,0,0,999);
+  	width: 100%;
+  	position: fixed;
+  	z-index: 100;
+}
+header nav {
+	background: #1A5276;
+	overflow: hidden;
+}
+
+header nav ul {
+	list-style: none;
+	font-family: 'PT Sans', sans-serif
+	font-weight: bold;
+}
+header nav ul li {
+	float: right;
+}
+header nav ul li a {
+	padding: 15px 10px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+		background: #75ACEC;
+		transition: all 0.7s ease
+	}
+
+.article1 {
+	padding:40px;
+	padding-top: 90px ;
+	background: #D5DBDB;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+
+}
+.article2{
+	padding: 20px ;
+	background: #D5DBDB;
+margin: 20px;
+}
+.article3{
+	padding: 20px ;
+	background: #D5DBDB;
+	margin: 20px;
+}
+.article3 img{
+	width: auto;
+	object-fit: cover;
+	background: #D5DBDB;
+}
+.formulario{
+	padding: 20px;
+	background: #D5DBDB;
+	margin: 20px;
+}
+h2{
+	text-align: left;
+}
+.iz {
+	font-size: 20px;
+	text-align: center;
+	background: #D5DBDB;
+	margin: 20px;
+}
